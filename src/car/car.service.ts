@@ -20,8 +20,8 @@ export class CarService {
         return car.save();
     }
 
-    public async getCarById(id: number) : Promise<CarDto> {
-        const car = this.carModel.findById(id).exec();
+    public async getCarById(id) : Promise<CarDto> {
+    const car = this.carModel.findOne(id).exec();
      if(!car) {
          throw new HttpException('Not Found', 404);
      }   

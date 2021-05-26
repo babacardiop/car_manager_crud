@@ -12,7 +12,7 @@ export class CarController {
     }
 
     @Get(':id')
-    getCarById(@Param('id') id: number){
+    getCarById(@Param('id') id){
         return this.carService.getCarById(id);
     }
 
@@ -28,6 +28,6 @@ export class CarController {
 
     @Delete(':id')
     public async deleteCar(@Param('id') id: number){
-        this.carService.deleteCarById(id);
+        return this.carService.deleteCarById(id);
     }
 }
