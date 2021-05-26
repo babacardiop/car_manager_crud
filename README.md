@@ -23,8 +23,9 @@
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
 ## Description
-
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+My first complete NestJs mini app 
+Used the usual [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This project is built based on the tutorial i've found on Youtube: NestJS tutorial for Beginners from Programming Knowledge: https://www.youtube.com/watch?v=oU5Di3be-Sk&list=PLS1QulWo1RIbihafA6GlwyvmwkHshmVyh&ab_channel=ProgrammingKnowledgeProgrammingKnowledgeVerified
 
 ## Installation
 
